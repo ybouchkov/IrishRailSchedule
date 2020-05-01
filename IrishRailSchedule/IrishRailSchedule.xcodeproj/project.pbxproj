@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDD61B2E245B07C700A756CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B2D245B07C700A756CE /* AppDelegate.swift */; };
+		DDD61B30245B07C700A756CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B2F245B07C700A756CE /* SceneDelegate.swift */; };
+		DDD61B32245B07C700A756CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B31245B07C700A756CE /* ViewController.swift */; };
+		DDD61B35245B07C700A756CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD61B33245B07C700A756CE /* Main.storyboard */; };
+		DDD61B37245B07C900A756CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD61B36245B07C900A756CE /* Assets.xcassets */; };
+		DDD61B3A245B07C900A756CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD61B38245B07C900A756CE /* LaunchScreen.storyboard */; };
+		DDD61B45245B07CA00A756CE /* IrishRailScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B44245B07CA00A756CE /* IrishRailScheduleTests.swift */; };
+		DDD61B50245B07CA00A756CE /* IrishRailScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B4F245B07CA00A756CE /* IrishRailScheduleUITests.swift */; };
+		DDD61B60245C368300A756CE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DDD61B5F245C368300A756CE /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDD61B41245B07CA00A756CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD61B22245B07C700A756CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD61B29245B07C700A756CE;
+			remoteInfo = IrishRailSchedule;
+		};
+		DDD61B4C245B07CA00A756CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD61B22245B07C700A756CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD61B29245B07C700A756CE;
+			remoteInfo = IrishRailSchedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDD61B2A245B07C700A756CE /* IrishRailSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrishRailSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD61B2D245B07C700A756CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDD61B2F245B07C700A756CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDD61B31245B07C700A756CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDD61B34245B07C700A756CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDD61B36245B07C900A756CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDD61B39245B07C900A756CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDD61B3B245B07C900A756CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD61B40245B07CA00A756CE /* IrishRailScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrishRailScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD61B44245B07CA00A756CE /* IrishRailScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrishRailScheduleTests.swift; sourceTree = "<group>"; };
+		DDD61B46245B07CA00A756CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD61B4B245B07CA00A756CE /* IrishRailScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrishRailScheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD61B4F245B07CA00A756CE /* IrishRailScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrishRailScheduleUITests.swift; sourceTree = "<group>"; };
+		DDD61B51245B07CA00A756CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD61B27245B07C700A756CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD61B60245C368300A756CE /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD61B3D245B07CA00A756CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD61B48245B07CA00A756CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD61B21245B07C700A756CE = {
+			isa = PBXGroup;
+			children = (
+				DDD61B2C245B07C700A756CE /* IrishRailSchedule */,
+				DDD61B43245B07CA00A756CE /* IrishRailScheduleTests */,
+				DDD61B4E245B07CA00A756CE /* IrishRailScheduleUITests */,
+				DDD61B2B245B07C700A756CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD61B2B245B07C700A756CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD61B2A245B07C700A756CE /* IrishRailSchedule.app */,
+				DDD61B40245B07CA00A756CE /* IrishRailScheduleTests.xctest */,
+				DDD61B4B245B07CA00A756CE /* IrishRailScheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD61B2C245B07C700A756CE /* IrishRailSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				DDD61B5D245C35DC00A756CE /* Resources */,
+				DDD61B31245B07C700A756CE /* ViewController.swift */,
+				DDD61B33245B07C700A756CE /* Main.storyboard */,
+				DDD61B3B245B07C900A756CE /* Info.plist */,
+			);
+			path = IrishRailSchedule;
+			sourceTree = "<group>";
+		};
+		DDD61B43245B07CA00A756CE /* IrishRailScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDD61B44245B07CA00A756CE /* IrishRailScheduleTests.swift */,
+				DDD61B46245B07CA00A756CE /* Info.plist */,
+			);
+			path = IrishRailScheduleTests;
+			sourceTree = "<group>";
+		};
+		DDD61B4E245B07CA00A756CE /* IrishRailScheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDD61B4F245B07CA00A756CE /* IrishRailScheduleUITests.swift */,
+				DDD61B51245B07CA00A756CE /* Info.plist */,
+			);
+			path = IrishRailScheduleUITests;
+			sourceTree = "<group>";
+		};
+		DDD61B5D245C35DC00A756CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDD61B2D245B07C700A756CE /* AppDelegate.swift */,
+				DDD61B2F245B07C700A756CE /* SceneDelegate.swift */,
+				DDD61B36245B07C900A756CE /* Assets.xcassets */,
+				DDD61B38245B07C900A756CE /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD61B29245B07C700A756CE /* IrishRailSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD61B54245B07CA00A756CE /* Build configuration list for PBXNativeTarget "IrishRailSchedule" */;
+			buildPhases = (
+				DDD61B26245B07C700A756CE /* Sources */,
+				DDD61B27245B07C700A756CE /* Frameworks */,
+				DDD61B28245B07C700A756CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrishRailSchedule;
+			packageProductDependencies = (
+				DDD61B5F245C368300A756CE /* Alamofire */,
+			);
+			productName = IrishRailSchedule;
+			productReference = DDD61B2A245B07C700A756CE /* IrishRailSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDD61B3F245B07CA00A756CE /* IrishRailScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD61B57245B07CA00A756CE /* Build configuration list for PBXNativeTarget "IrishRailScheduleTests" */;
+			buildPhases = (
+				DDD61B3C245B07CA00A756CE /* Sources */,
+				DDD61B3D245B07CA00A756CE /* Frameworks */,
+				DDD61B3E245B07CA00A756CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD61B42245B07CA00A756CE /* PBXTargetDependency */,
+			);
+			name = IrishRailScheduleTests;
+			productName = IrishRailScheduleTests;
+			productReference = DDD61B40245B07CA00A756CE /* IrishRailScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDD61B4A245B07CA00A756CE /* IrishRailScheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD61B5A245B07CA00A756CE /* Build configuration list for PBXNativeTarget "IrishRailScheduleUITests" */;
+			buildPhases = (
+				DDD61B47245B07CA00A756CE /* Sources */,
+				DDD61B48245B07CA00A756CE /* Frameworks */,
+				DDD61B49245B07CA00A756CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD61B4D245B07CA00A756CE /* PBXTargetDependency */,
+			);
+			name = IrishRailScheduleUITests;
+			productName = IrishRailScheduleUITests;
+			productReference = DDD61B4B245B07CA00A756CE /* IrishRailScheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD61B22245B07C700A756CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Yani Buchkov";
+				TargetAttributes = {
+					DDD61B29245B07C700A756CE = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					DDD61B3F245B07CA00A756CE = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = DDD61B29245B07C700A756CE;
+					};
+					DDD61B4A245B07CA00A756CE = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = DDD61B29245B07C700A756CE;
+					};
+				};
+			};
+			buildConfigurationList = DDD61B25245B07C700A756CE /* Build configuration list for PBXProject "IrishRailSchedule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD61B21245B07C700A756CE;
+			packageReferences = (
+				DDD61B5E245C368300A756CE /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = DDD61B2B245B07C700A756CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD61B29245B07C700A756CE /* IrishRailSchedule */,
+				DDD61B3F245B07CA00A756CE /* IrishRailScheduleTests */,
+				DDD61B4A245B07CA00A756CE /* IrishRailScheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD61B28245B07C700A756CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD61B3A245B07C900A756CE /* LaunchScreen.storyboard in Resources */,
+				DDD61B37245B07C900A756CE /* Assets.xcassets in Resources */,
+				DDD61B35245B07C700A756CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD61B3E245B07CA00A756CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD61B49245B07CA00A756CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD61B26245B07C700A756CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD61B32245B07C700A756CE /* ViewController.swift in Sources */,
+				DDD61B2E245B07C700A756CE /* AppDelegate.swift in Sources */,
+				DDD61B30245B07C700A756CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD61B3C245B07CA00A756CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD61B45245B07CA00A756CE /* IrishRailScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD61B47245B07CA00A756CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD61B50245B07CA00A756CE /* IrishRailScheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDD61B42245B07CA00A756CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD61B29245B07C700A756CE /* IrishRailSchedule */;
+			targetProxy = DDD61B41245B07CA00A756CE /* PBXContainerItemProxy */;
+		};
+		DDD61B4D245B07CA00A756CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD61B29245B07C700A756CE /* IrishRailSchedule */;
+			targetProxy = DDD61B4C245B07CA00A756CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDD61B33245B07C700A756CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD61B34245B07C700A756CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDD61B38245B07C900A756CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD61B39245B07C900A756CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD61B52245B07CA00A756CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDD61B53245B07CA00A756CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD61B55245B07CA00A756CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchkoff.IrishRailSchedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDD61B56245B07CA00A756CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchkoff.IrishRailSchedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDD61B58245B07CA00A756CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailScheduleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchkoff.IrishRailScheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrishRailSchedule.app/IrishRailSchedule";
+			};
+			name = Debug;
+		};
+		DDD61B59245B07CA00A756CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailScheduleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchkoff.IrishRailScheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrishRailSchedule.app/IrishRailSchedule";
+			};
+			name = Release;
+		};
+		DDD61B5B245B07CA00A756CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailScheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchkoff.IrishRailScheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrishRailSchedule;
+			};
+			name = Debug;
+		};
+		DDD61B5C245B07CA00A756CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrishRailScheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchkoff.IrishRailScheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrishRailSchedule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD61B25245B07C700A756CE /* Build configuration list for PBXProject "IrishRailSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD61B52245B07CA00A756CE /* Debug */,
+				DDD61B53245B07CA00A756CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD61B54245B07CA00A756CE /* Build configuration list for PBXNativeTarget "IrishRailSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD61B55245B07CA00A756CE /* Debug */,
+				DDD61B56245B07CA00A756CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD61B57245B07CA00A756CE /* Build configuration list for PBXNativeTarget "IrishRailScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD61B58245B07CA00A756CE /* Debug */,
+				DDD61B59245B07CA00A756CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD61B5A245B07CA00A756CE /* Build configuration list for PBXNativeTarget "IrishRailScheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD61B5B245B07CA00A756CE /* Debug */,
+				DDD61B5C245B07CA00A756CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDD61B5E245C368300A756CE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDD61B5F245C368300A756CE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDD61B5E245C368300A756CE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DDD61B22245B07C700A756CE /* Project object */;
+}
