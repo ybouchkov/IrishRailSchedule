@@ -16,6 +16,13 @@
 		DDD61B45245B07CA00A756CE /* IrishRailScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B44245B07CA00A756CE /* IrishRailScheduleTests.swift */; };
 		DDD61B50245B07CA00A756CE /* IrishRailScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B4F245B07CA00A756CE /* IrishRailScheduleUITests.swift */; };
 		DDD61B60245C368300A756CE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DDD61B5F245C368300A756CE /* Alamofire */; };
+		DDD61B62245C398900A756CE /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B61245C398900A756CE /* APIConfiguration.swift */; };
+		DDD61B65245C39D100A756CE /* Endpoind.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B64245C39D100A756CE /* Endpoind.swift */; };
+		DDD61B67245C3AB000A756CE /* PlistKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B66245C3AB000A756CE /* PlistKey.swift */; };
+		DDD61B6A245C40B000A756CE /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B69245C40B000A756CE /* Environment.swift */; };
+		DDD61B6C245C414A00A756CE /* IrishRailEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B6B245C414A00A756CE /* IrishRailEnvironment.swift */; };
+		DDD61B6E245C42E800A756CE /* IrishRailClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B6D245C42E800A756CE /* IrishRailClient.swift */; };
+		DDD61B70245C437400A756CE /* RailStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD61B6F245C437400A756CE /* RailStation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,13 @@
 		DDD61B4B245B07CA00A756CE /* IrishRailScheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrishRailScheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD61B4F245B07CA00A756CE /* IrishRailScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrishRailScheduleUITests.swift; sourceTree = "<group>"; };
 		DDD61B51245B07CA00A756CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD61B61245C398900A756CE /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		DDD61B64245C39D100A756CE /* Endpoind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoind.swift; sourceTree = "<group>"; };
+		DDD61B66245C3AB000A756CE /* PlistKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistKey.swift; sourceTree = "<group>"; };
+		DDD61B69245C40B000A756CE /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		DDD61B6B245C414A00A756CE /* IrishRailEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrishRailEnvironment.swift; sourceTree = "<group>"; };
+		DDD61B6D245C42E800A756CE /* IrishRailClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrishRailClient.swift; sourceTree = "<group>"; };
+		DDD61B6F245C437400A756CE /* RailStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailStation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,9 @@
 				DDD61B31245B07C700A756CE /* ViewController.swift */,
 				DDD61B33245B07C700A756CE /* Main.storyboard */,
 				DDD61B3B245B07C900A756CE /* Info.plist */,
+				DDD61B63245C398E00A756CE /* Networking */,
+				DDD61B68245C3AC900A756CE /* Environment */,
+				DDD61B71245C437800A756CE /* Models */,
 			);
 			path = IrishRailSchedule;
 			sourceTree = "<group>";
@@ -136,6 +153,34 @@
 				DDD61B38245B07C900A756CE /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DDD61B63245C398E00A756CE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DDD61B61245C398900A756CE /* APIConfiguration.swift */,
+				DDD61B64245C39D100A756CE /* Endpoind.swift */,
+				DDD61B6D245C42E800A756CE /* IrishRailClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DDD61B68245C3AC900A756CE /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				DDD61B66245C3AB000A756CE /* PlistKey.swift */,
+				DDD61B69245C40B000A756CE /* Environment.swift */,
+				DDD61B6B245C414A00A756CE /* IrishRailEnvironment.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		DDD61B71245C437800A756CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDD61B6F245C437400A756CE /* RailStation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDD61B67245C3AB000A756CE /* PlistKey.swift in Sources */,
+				DDD61B6C245C414A00A756CE /* IrishRailEnvironment.swift in Sources */,
+				DDD61B70245C437400A756CE /* RailStation.swift in Sources */,
+				DDD61B6E245C42E800A756CE /* IrishRailClient.swift in Sources */,
 				DDD61B32245B07C700A756CE /* ViewController.swift in Sources */,
 				DDD61B2E245B07C700A756CE /* AppDelegate.swift in Sources */,
+				DDD61B6A245C40B000A756CE /* Environment.swift in Sources */,
 				DDD61B30245B07C700A756CE /* SceneDelegate.swift in Sources */,
+				DDD61B62245C398900A756CE /* APIConfiguration.swift in Sources */,
+				DDD61B65245C39D100A756CE /* Endpoind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BASE_URL = "http://api.irishrail.ie/realtime/realtime.asmx/";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -396,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BASE_URL = "http://api.irishrail.ie/realtime/realtime.asmx/";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
